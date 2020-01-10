@@ -1,0 +1,38 @@
+.logout{
+    background:transparent;
+    border: none;
+    color:#fff;
+    cursor: pointer;
+    padding: 0px 12px;
+    line-height: 60px;
+    display: inline-block;
+}
+.checkbox label::after{
+    color:#3eacff;
+}
+.input-group .form-control + .input-group-addon{
+    padding-bottom: 3px;
+}
+.form-group-image a {
+    position: relative;
+}
+.form-group-image a img {
+    position: relative;
+    z-index: 1;
+    transition: all 0.8s ease;
+}
+.form-group-image a:hover img {
+    opacity: 0.5;
+    z-index: 0;
+}
+.form-group-image a i{
+    position: absolute;
+    top: 0;
+    left: 40%;
+    font-size: 30px;
+    color: var(--dark);
+    z-index: 0;
+}
+.form-group-image a:hover i {
+    z-index: 1;
+}
